@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import TempApp from './components/TempApp';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TempApp/>
     </div>
   );
 }
