@@ -20,7 +20,12 @@ const TempApp = () => {
             placeholder='Enter the city' 
             onChange={onChangeHandler}/>
         </div>
-        
+
+        <div className={styles.info}>
+             <h2 className={styles.location}>
+                 <i class="fa-solid fa-street-view"></i> Pune</h2>
+             <h2 className={styles.temp}>Celsius</h2>
+        </div>  
     </div>
     </>
   )

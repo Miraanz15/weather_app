@@ -3,6 +3,7 @@
     margin-right: 10vw;
     width: 80%;
     background-color: blue;
+    font-family: 'Jost', sans-serif;
 
 }
 .inputData{
@@ -10,5 +11,14 @@
 }
 .inputField{
     border-radius: 40px;
+
+}
+.info{
+
+}
+.location{
+
+}
+.temp{
 
 }
