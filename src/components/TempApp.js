@@ -2,11 +2,19 @@ import React, {useState, useEffect} from 'react';
 import styles from './css/TempApp.module.css';
 
 const TempApp = () => {
-    const [city, setCity] = useState(null);
-    const [search, setSearch] = useState(null);
+    const [city, setCity] = useState('');
+    const [search, setSearch] = useState("Mumbai");
 
     useEffect(() => {
-       
+         const fetchApi = async () =>{
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=facda1a8f6127a406b3cb2fb384e40c7`
+            const response = await fetch(url);
+            const data = await response.json();
+            console.log(data);
+
+         }
+
+        fetchApi();
     }, []);
   
     const onChangeHandler = (event) => {
@@ -27,7 +35,7 @@ const TempApp = () => {
         </div>
         <div className={styles.info}>
              <h2 className={styles.location}>
-                 <i class="fa-solid fa-street-view"></i> {city }</h2>
+                 <i className="fa-solid fa-street-view"></i> {city }</h2>
              <h2 className={styles.temp}>Celsius</h2>
              <h3 className={styles.tempmin_max}>Min | Max</h3>
         </div>  
