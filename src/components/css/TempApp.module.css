@@ -3,7 +3,6 @@
     margin-right: 10vw;
     border-radius: 20px;
     width: 80%;
-    background-color: rgb(163, 177, 176);
     box-shadow: 0 0 10px rgb(184, 250, 113);
     font-family: 'Jost', sans-serif;
     color: rgba(0, 0, 0, 0.683);
@@ -21,6 +20,7 @@
 #inputField{
     border-radius: 40px;
     font-family: 'Jost', sans-serif;
+    width: 20%;
 }
 #inputFieldLabel{
     font-family: 'Jost', sans-serif;
