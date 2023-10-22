@@ -1,39 +1,45 @@
 .box{
     margin-left: 10vw;
     margin-right: 10vw;
+    border-radius: 20px;
     width: 80%;
-    background-color: rgb(0, 255, 238);
+    background-color: rgb(163, 177, 176);
+    box-shadow: 0 0 10px rgb(184, 250, 113);
     font-family: 'Jost', sans-serif;
+    color: rgba(0, 0, 0, 0.683);
+    padding-bottom: 5vh;
+    background: linear-gradient(to right, rgb(163, 177, 176), rgb(232,142,137));
 
+}
+.headingTop{
+    font-family: 'Jost', sans-serif;
+    padding-top: 5vh;
 }
 .inputData{
-
+    font-family: 'Jost', sans-serif;
 }
-.inputField{
+#inputField{
     border-radius: 40px;
-
+    font-family: 'Jost', sans-serif;
+}
+#inputFieldLabel{
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
 }
 .info{
-
+    font-family: 'Jost', sans-serif;
 }
 .location{
-
+    font-family: 'Jost', sans-serif;
 }
 .temp{
-
+    font-family: 'Jost', sans-serif;
 }
 .tempmin_max{
-
+    font-family: 'Jost', sans-serif;
 }
-.wave{
-
-}
-.one{
-
-}
-.two{
-
-}
-.three{
-    
+.message{
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;    
+    margin-top: 2vh;
 }
