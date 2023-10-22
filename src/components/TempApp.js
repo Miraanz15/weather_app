@@ -48,7 +48,7 @@ const TempApp = () => {
             id={styles.inputField}
             type='search' 
             value={city} 
-            placeholder='Enter the city' 
+            placeholder='Enter the City' 
             onChange={onChangeHandler}/>
         </div>
 
@@ -57,6 +57,7 @@ const TempApp = () => {
                  <i className="fa-solid fa-street-view"></i>      {value.name}</h2>
              <h2 className={styles.temp}>{(value.main.temp - 273.15).toFixed(2)} &deg; Cel</h2>
              <h3 className={styles.tempmin_max}>Min {(value.main.temp_min - 273.15).toFixed(2)} &deg; Cel | Max {(value.main.temp_max - 273.15).toFixed(2)} &deg; Cel</h3>
+             <h2 className={styles.temp}>Humidity {value.main.humidity} &deg;F</h2>
         </div>) : (search ? (<div className={styles.message}>Sorry, City not found</div>) : (<div className={styles.message}>Please enter the City name</div>)  )}
 
     </div>
