@@ -1,14 +1,15 @@
 .box{
     margin-left: 10vw;
     margin-right: 10vw;
+    margin-top: 10vh;
     border-radius: 20px;
     width: 80%;
     box-shadow: 0 0 10px rgb(184, 250, 113);
     font-family: 'Jost', sans-serif;
-    color: rgba(0, 0, 0, 0.683);
+    color: rgb(0, 0, 0);
     padding-bottom: 5vh;
-    background: linear-gradient(to right, rgb(163, 177, 176), rgb(232,142,137));
-
+    background: linear-gradient(to right, #a3d299, rgb(232,142,137)); 
+    opacity: 0.5;
 }
 .headingTop{
     font-family: 'Jost', sans-serif;

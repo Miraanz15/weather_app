@@ -3,6 +3,13 @@ body{
   height:100%;
   background-color: rgba(194, 186, 186, 0.808);
   scroll-behavior: smooth;
+  background-image: url('weather.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  margin: 0; 
+  overflow: hidden; 
+  height: 100vh;
 }
 
 .App {
